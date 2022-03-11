@@ -1,0 +1,22 @@
+.nav {
+  grid-area: n;
+  /* background-color: aqua; */
+  height: 400px;
+}
+
+.item {
+  font-size: 30px;
+  line-height: 40px;
+  padding: 20px;
+}
+
+.item a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.item a.activeLink {
+  color: gold;
+  margin-left: 10px;
+  /* text-decoration: none; */
+}
