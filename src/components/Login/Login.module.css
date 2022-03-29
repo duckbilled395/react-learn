@@ -1,0 +1,35 @@
+.form {
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box.field {
+    border: #bd0000 1px;
+}
+
+.text {
+    margin: 10px;
+}
+
+.field {
+    margin: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 3px;
+}
+
+.button {
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.error {
+    color: #bd0000;
+    /*text-shadow: 1px 0px 0px black;*/
+}
